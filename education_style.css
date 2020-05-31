@@ -1,0 +1,74 @@
+#colleg_pannel{
+	line-height:18px;
+	border: solid black 2px;
+	height:auto;
+	width:auto;
+	list-style:none;
+	margin-left:10px;
+	background-color:white;
+}
+.digree_college_button {
+	width:300px;
+	font-size:25px;
+	
+}
+.digree_college_button a{
+	color:purple;
+	text-decoration:none;
+}
+.digree_colleges{
+	margin-left:200px;
+	font-size:20px;
+	line-height:20px;
+	height:500px;
+	width:400px;
+	list-style:none;
+	display:none;
+	background-color:white;
+}
+.digree_colleges a{
+	color:green;
+}
+.digree_colleges a:hover{
+	color:red;
+}
+.digree_college_button:hover .digree_colleges{
+	display:block;
+}
+.inter_college_button {
+	font-size:25px;
+	width:300;
+}
+.inter_college_button a{
+	color:purple;
+	display:block;
+	text-decoration:none;
+}
+.intermedeat_colleges{
+	margin-left:200px;
+	font-size:20px;
+	line-height:20px;
+	height:500px;
+	width:400px;
+	list-style:none;
+	display:none;
+	background-color:white;
+}
+.intermedeat_colleges a{
+	color:green;
+}
+.intermedeat_colleges a:hover{
+	color:red;
+}
+.inter_college_button:hover .intermedeat_colleges{
+	display:block;
+}
+.someinfo{
+	border:solid black 2px;
+	height:200px;
+	width:100%;
+	background-color:cyan;
+	color:blue;
+	font-size:20px;
+	text-align:center;
+}
